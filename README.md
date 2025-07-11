@@ -61,10 +61,13 @@ The FastAPI app (`main.py`) loads the trained pipeline and exposes a prediction 
   "FullBath": 2,
   "YearBuilt": 2003
 }
-📤 Sample Response:
+```
+### 📤 Sample Response:
+```json
 {
   "predicted_price": 208383.12
 }
+```
 ▶️ Run Locally:
 uvicorn main:app --reload
 Then open in browser: http://127.0.0.1:8000/docs
